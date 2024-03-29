@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ex003/style.css">
+
+    <title>Operação 3</title>
+</head>
+
+
+<body>
+
+    <section>
+        <div class="container-sec01">
+            <div class="container-btn">
+                <div class="container-btn__operacoes">
+                    <button onclick="somar()">SOMAR</button>
+                    <button onclick="subtrair()">SUBTRAIR</button>
+                    <button onclick="multiplicar()">MULTIPLICAR</button>
+                    <button onclick="dividir()">DIVIDIR</button>
+                    <button onclick="porcentagem()">PORCENTAGEM</button>
+                    <button onclick="calcPagVista()">DESCONTO</button>
+                    <button onclick="calcPagPrazo()">ACRÉSCIMO</button>
+
+                </div>
+                <div class="container-btn__alinhamento">
+                    <div class="container-formulario">
+                        <form>
+                            <label for="valor01">Valor 01:</label>
+                            <input type="number" id="valor01" name="valor01" placeholder="Digite o Valor 01" step="0.01" required><br />
+                            <label for="valor02">Valor 02:</label>
+                            <input type="number" id="valor02" name="valor02" placeholder="Digite o Valor 02" step="0.01" required>
+                        </form>
+                    </div>
+                <div class="container-limpar">
+
+                   <button onclick="limpar()">LIMPAR</button>
+
+                </div>
+            </div>
+            </div>
+            <div class="resultado" id="resultado">   
+                  <!--Código que será injedado pelo JS-  -->
+                <!-- <ul>
+                    <li>Operação: <span>SOMA</span> </li>
+                    <li>Valor 01 digitado pelo usuário: <span> ${v1} </span> </li>
+                    <li>Valor 02 digitado pelo usuário: <span>${v2}</span> </li>       
+                    <li>O resultado da operação é ${v1} + ${v2} = <span>${v1 + v2}</span> </li>
+                </ul> -->
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="/ex003/script.js"></script>
+    
+</body>
+
+</html>
